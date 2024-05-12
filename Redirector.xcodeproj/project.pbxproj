@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1B4CF1B72BC3AE14001E9577 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CF1B62BC3AE14001E9577 /* Data.swift */; };
+		1B53930E2BEA42C4002CE13E /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53930D2BEA42C4002CE13E /* AppIcon.swift */; };
+		1B7845CD2BF0C80700ED09F3 /* BackgroundManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7845CC2BF0C80700ED09F3 /* BackgroundManageView.swift */; };
+		1B9D046F2BD91DE3004A60F9 /* AppSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D046E2BD91DE3004A60F9 /* AppSettingViewModel.swift */; };
+		1BA76FA62BE23B4000AFAD1A /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA76FA52BE23B3F00AFAD1A /* Sizes.swift */; };
+		1BA76FA82BE23D6000AFAD1A /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA76FA72BE23D6000AFAD1A /* AppImages.swift */; };
+		1BD9D76C2BF0DDB6009C5F75 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9D76B2BF0DDB6009C5F75 /* AppStrings.swift */; };
+		1BD9D76E2BF0DE70009C5F75 /* Paddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD9D76D2BF0DE70009C5F75 /* Paddings.swift */; };
 		1BDFD37A2B1B6D5E0091A4EB /* RedirectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFD3792B1B6D5E0091A4EB /* RedirectorApp.swift */; };
 		1BDFD37C2B1B6D5E0091A4EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFD37B2B1B6D5E0091A4EB /* ContentView.swift */; };
 		1BDFD37E2B1B6D600091A4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDFD37D2B1B6D600091A4EB /* Assets.xcassets */; };
@@ -16,10 +23,21 @@
 		1BDFD38E2B1BD01E0091A4EB /* LeftTrapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFD38D2B1BD01E0091A4EB /* LeftTrapezoid.swift */; };
 		1BDFD3902B1BD0300091A4EB /* RightTrapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFD38F2B1BD0300091A4EB /* RightTrapezoid.swift */; };
 		1BDFD3922B1BD04F0091A4EB /* TrapezoidGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDFD3912B1BD04F0091A4EB /* TrapezoidGroup.swift */; };
+		1BF070652BC81F0500BBE586 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF070642BC81F0500BBE586 /* SettingsView.swift */; };
+		1BF070672BC8304F00BBE586 /* AppManageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF070662BC8304F00BBE586 /* AppManageView.swift */; };
+		1BF070692BC9566500BBE586 /* AppList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF070682BC9566500BBE586 /* AppList.swift */; };
+		1BF0706B2BCAB39900BBE586 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF0706A2BCAB39900BBE586 /* Apps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B4CF1B62BC3AE14001E9577 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1B53930D2BEA42C4002CE13E /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
+		1B7845CC2BF0C80700ED09F3 /* BackgroundManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundManageView.swift; sourceTree = "<group>"; };
+		1B9D046E2BD91DE3004A60F9 /* AppSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingViewModel.swift; sourceTree = "<group>"; };
+		1BA76FA52BE23B3F00AFAD1A /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		1BA76FA72BE23D6000AFAD1A /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		1BD9D76B2BF0DDB6009C5F75 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		1BD9D76D2BF0DE70009C5F75 /* Paddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddings.swift; sourceTree = "<group>"; };
 		1BDFD3762B1B6D5E0091A4EB /* Redirector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redirector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDFD3792B1B6D5E0091A4EB /* RedirectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectorApp.swift; sourceTree = "<group>"; };
 		1BDFD37B2B1B6D5E0091A4EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +48,10 @@
 		1BDFD38D2B1BD01E0091A4EB /* LeftTrapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTrapezoid.swift; sourceTree = "<group>"; };
 		1BDFD38F2B1BD0300091A4EB /* RightTrapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTrapezoid.swift; sourceTree = "<group>"; };
 		1BDFD3912B1BD04F0091A4EB /* TrapezoidGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidGroup.swift; sourceTree = "<group>"; };
+		1BF070642BC81F0500BBE586 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1BF070662BC8304F00BBE586 /* AppManageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManageView.swift; sourceTree = "<group>"; };
+		1BF070682BC9566500BBE586 /* AppList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppList.swift; sourceTree = "<group>"; };
+		1BF0706A2BCAB39900BBE586 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,8 @@
 				1BDFD38F2B1BD0300091A4EB /* RightTrapezoid.swift */,
 				1BDFD38D2B1BD01E0091A4EB /* LeftTrapezoid.swift */,
 				1BDFD38B2B1BD00A0091A4EB /* Trapezoid.swift */,
+				1BF070682BC9566500BBE586 /* AppList.swift */,
+				1B53930D2BEA42C4002CE13E /* AppIcon.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -67,6 +91,9 @@
 		1B4CF1B12BC3ADA9001E9577 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1BF070662BC8304F00BBE586 /* AppManageView.swift */,
+				1BF070642BC81F0500BBE586 /* SettingsView.swift */,
+				1B7845CC2BF0C80700ED09F3 /* BackgroundManageView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -81,6 +108,7 @@
 		1B4CF1B42BC3ADCB001E9577 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1B9D046E2BD91DE3004A60F9 /* AppSettingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -89,6 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				1B4CF1B62BC3AE14001E9577 /* Data.swift */,
+				1BF0706A2BCAB39900BBE586 /* Apps.swift */,
+				1BA76FA52BE23B3F00AFAD1A /* Sizes.swift */,
+				1BD9D76D2BF0DE70009C5F75 /* Paddings.swift */,
+				1BA76FA72BE23D6000AFAD1A /* AppImages.swift */,
+				1BD9D76B2BF0DDB6009C5F75 /* AppStrings.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +212,7 @@
 			);
 			mainGroup = 1BDFD36D2B1B6D5E0091A4EB;
 			packageReferences = (
+				1B53930C2BEA4161002CE13E /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 1BDFD3772B1B6D5E0091A4EB /* Products */;
 			projectDirPath = "";
@@ -208,10 +242,21 @@
 			files = (
 				1B4CF1B72BC3AE14001E9577 /* Data.swift in Sources */,
 				1BDFD37C2B1B6D5E0091A4EB /* ContentView.swift in Sources */,
+				1B9D046F2BD91DE3004A60F9 /* AppSettingViewModel.swift in Sources */,
+				1BF070692BC9566500BBE586 /* AppList.swift in Sources */,
 				1BDFD37A2B1B6D5E0091A4EB /* RedirectorApp.swift in Sources */,
 				1BDFD38C2B1BD00A0091A4EB /* Trapezoid.swift in Sources */,
+				1B53930E2BEA42C4002CE13E /* AppIcon.swift in Sources */,
+				1BA76FA62BE23B4000AFAD1A /* Sizes.swift in Sources */,
 				1BDFD38E2B1BD01E0091A4EB /* LeftTrapezoid.swift in Sources */,
+				1B7845CD2BF0C80700ED09F3 /* BackgroundManageView.swift in Sources */,
+				1BD9D76C2BF0DDB6009C5F75 /* AppStrings.swift in Sources */,
+				1BF070672BC8304F00BBE586 /* AppManageView.swift in Sources */,
+				1BF070652BC81F0500BBE586 /* SettingsView.swift in Sources */,
+				1BF0706B2BCAB39900BBE586 /* Apps.swift in Sources */,
 				1BDFD3922B1BD04F0091A4EB /* TrapezoidGroup.swift in Sources */,
+				1BD9D76E2BF0DE70009C5F75 /* Paddings.swift in Sources */,
+				1BA76FA82BE23D6000AFAD1A /* AppImages.swift in Sources */,
 				1BDFD3902B1BD0300091A4EB /* RightTrapezoid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +466,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B53930C2BEA4161002CE13E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1BDFD36E2B1B6D5E0091A4EB /* Project object */;
 }

@@ -10,7 +10,7 @@ import SwiftUI
 
 class Data {
   // Background Image
-  @Published var bgImage: Image?
+  var bgImage: Image?
   
   // App Title Text
   
