@@ -8,8 +8,6 @@
 
 // 호버를 뷰모델로 빼고, 
 
-
-
 import Cocoa
 import SwiftUI
 

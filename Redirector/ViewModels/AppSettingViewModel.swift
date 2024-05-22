@@ -12,24 +12,38 @@ import SwiftUI
 class AppSettingViewModel: ObservableObject {
   @Published var list = [Apps(name: "App Store", image: NSImage(resource: .appStore))]
   @Published var selectedIndex: Int = 0
-  @Published var str: String = ""
-  
+
+  var listCount: Int {
+    list.count
+  }
   var addButtonDisabled: Bool {
     list.count >= 4
   }
-  
+
   var removeButtonDisabled: Bool {
     list.count <= 1
   }
 
   var appDescription: String {
-    get { list[self.selectedIndex].description.description ?? ""}
-    set { list[self.selectedIndex].description.description = newValue }
+    get { list[selectedIndex].appDescription.description ?? "" }
+    set { list[selectedIndex].appDescription.description = newValue }
+  }
+
+  var appTitle: String {
+    get { list[selectedIndex].appDescription.title ?? "" }
+    set { list[selectedIndex].appDescription.title = newValue }
+  }
+
+  func appName(_ index: Int) -> String {
+    list[index].name
   }
   
-  var appTitle: String {
-    get { list[self.selectedIndex].description.title ?? ""}
-    set { list[self.selectedIndex].description.title = newValue }
+  func appImage(_ index: Int) -> NSImage? {
+    list[index].image
+  }
+  
+  func updateSelectedIndex(_ index: Int) {
+    selectedIndex = index
   }
   
   func removeApp() {
@@ -73,17 +87,8 @@ class AppSettingViewModel: ObservableObject {
 
     return getIcon(file: path)
   }
-  
+
   func onMoveUsers(fromOffsets source: IndexSet, toOffset destination: Int) {
     list.move(fromOffsets: source, toOffset: destination)
   }
-  //  // MARK: - Bundles
-  //
-  //  /// Easily read Info.plist as a Dictionary from any bundle by accessing .infoDictionary on Bundle
-  //  func bundle(forBundleID: String) -> Bundle? {
-  //    guard let url = NSWorkspace.shared.urlForApplication(withBundleIdentifier: forBundleID)
-  //    else { return nil }
-  //
-  //    return Bundle(url: url)
-  //  }
 }

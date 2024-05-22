@@ -12,13 +12,12 @@ struct Apps: Identifiable, Hashable {
   let id = UUID()
   let name: String
   var image: NSImage?
-  var description: AppDescription
+  var appDescription: AppDescription
   
   init(name: String, image: NSImage? = nil, description: AppDescription = AppDescription()) {
     self.name = name
     self.image = image
-//    self.description = nil
-    self.description = AppDescription(title: name)
+    self.appDescription = AppDescription(title: name)
   }
 }
 

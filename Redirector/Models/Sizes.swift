@@ -7,7 +7,14 @@
 
 import Foundation
 
-enum SettingComponentSizes {
-  static let appIconSize: CGFloat = 32
-  static let appListWidth: CGFloat = 200
+enum Sizes {
+  enum SettingComponents {
+    static let appIconSize: CGFloat = 32
+    static let appListWidth: CGFloat = 200
+  }
+  
+  enum Paddings {
+    static let quarter: CGFloat = 5
+    static let half: CGFloat = 10
+  }
 }

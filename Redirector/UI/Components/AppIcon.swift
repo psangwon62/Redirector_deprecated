@@ -14,7 +14,7 @@ struct AppIcon: View {
     if let image = image {
       Image(nsImage: image)
         .resizable()
-        .frame(width: SettingComponentSizes.appIconSize, height: SettingComponentSizes.appIconSize)
+        .frame(width: Sizes.SettingComponents.appIconSize, height: Sizes.SettingComponents.appIconSize)
         .aspectRatio(contentMode: .fit)
     } else {
       EmptyView()
